@@ -410,7 +410,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RomanNumeralCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.RomanNumeralCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -424,7 +424,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RomanNumeralCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.RomanNumeralCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -495,6 +495,7 @@
 				835AECB51D80DD800046555C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		835AECB61D80DD800046555C /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +504,7 @@
 				835AECB81D80DD800046555C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		835AECB91D80DD800046555C /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +513,7 @@
 				835AECBB1D80DD800046555C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
