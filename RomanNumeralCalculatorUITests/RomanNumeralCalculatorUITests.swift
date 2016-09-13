@@ -53,7 +53,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
 
 
         expectationForPredicate(exists, evaluatedWithObject: label, handler: nil)
-        waitForExpectationsWithTimeout(5, handler: nil)
+        waitForExpectationsWithTimeout(30, handler: nil)
 
         print(app.debugDescription)
         print("label title = " + (label.value as! String));
