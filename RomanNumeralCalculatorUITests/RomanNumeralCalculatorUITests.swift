@@ -30,6 +30,34 @@ class RomanNumeralCalculatorUITests: XCTestCase {
     
     func testExample() {
         // Use recording to get started writing UI tests.
+        
+        
+        XCUIDevice.sharedDevice().orientation = .Portrait
+        
+        let app = XCUIApplication()
+        let iButton = app.buttons["I"]
+        iButton.tap()
+        app.buttons["+"].tap()
+        iButton.tap()
+
+
+        //app.b
+        //XCTAssert(app.labels["calculated_value"].title == "II")
+
+        print(app.debugDescription)
+        print("value = " + (app.staticTexts["calculated_value"].value as? String)!)
+
+        let label = app.staticTexts["calculated_value"]
+        let exists = NSPredicate(format: "label == 'II'")
+
+
+
+        expectationForPredicate(exists, evaluatedWithObject: label, handler: nil)
+        waitForExpectationsWithTimeout(5, handler: nil)
+
+        print(app.debugDescription)
+        print("label title = " + (label.value as! String));
+
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
