@@ -68,6 +68,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func actionD(sender: AnyObject) {
+        [0][1]
         handleButton(500)
     }
 
