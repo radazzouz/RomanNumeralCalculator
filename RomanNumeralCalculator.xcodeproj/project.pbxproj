@@ -1,1257 +1,581 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>11E27AF998774094A890C3F0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A7717DCF720ADA38CF58AE5F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1A197A6FFC421852069A123F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreTelephony.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreTelephony.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>1F989EE8F5967246536D82D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0CC85E3DFBD26D5B41E1AAE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2074ABAFCD752C9366216FB5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>233DFA7C9B68A528A281D1F0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C58B207E394C1A859B2CEC0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2B04790C1F43C99942EF78AD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AssetsLibrary.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/AssetsLibrary.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>2B0E7E5FE55E749AD6453531</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A197A6FFC421852069A123F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>37E3766B6B9D062C114A74D7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EC448A2D5D7B5C1D22AE0C02</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>539362157D812D225FFC2704</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreVideo.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreVideo.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>811A920AE226D1F1AA280C32</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Bridging-Header.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC821D80DD7F0046555C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>835AEC8D1D80DD800046555C</string>
-				<string>835AECA21D80DD800046555C</string>
-				<string>835AECAD1D80DD800046555C</string>
-				<string>835AEC8C1D80DD800046555C</string>
-				<string>84C013C0B11AB9F95B36881F</string>
-				<string>811A920AE226D1F1AA280C32</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC831D80DD7F0046555C</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>buddybuild</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>835AEC8A1D80DD7F0046555C</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>DevelopmentTeam</key>
-						<string>E662VUSA46</string>
-					</dict>
-					<key>835AEC9E1D80DD800046555C</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>835AEC8A1D80DD7F0046555C</string>
-					</dict>
-					<key>835AECA91D80DD800046555C</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>835AEC8A1D80DD7F0046555C</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>835AEC861D80DD7F0046555C</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>835AEC821D80DD7F0046555C</string>
-			<key>productRefGroup</key>
-			<string>835AEC8C1D80DD800046555C</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>835AEC8A1D80DD7F0046555C</string>
-				<string>835AEC9E1D80DD800046555C</string>
-				<string>835AECA91D80DD800046555C</string>
-			</array>
-		</dict>
-		<key>835AEC861D80DD7F0046555C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>835AECB11D80DD800046555C</string>
-				<string>835AECB21D80DD800046555C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>835AEC871D80DD7F0046555C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>835AEC911D80DD800046555C</string>
-				<string>835AECBD1D80ED8F0046555C</string>
-				<string>835AEC8F1D80DD800046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>835AEC881D80DD7F0046555C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EF14943B7535A230677C225A</string>
-				<string>F7F17AD6D6A1500A63964B76</string>
-				<string>11E27AF998774094A890C3F0</string>
-				<string>2B0E7E5FE55E749AD6453531</string>
-				<string>1F989EE8F5967246536D82D3</string>
-				<string>B89D37FCEE137C0A4A033DB6</string>
-				<string>37E3766B6B9D062C114A74D7</string>
-				<string>233DFA7C9B68A528A281D1F0</string>
-				<string>AA49946F3170D758EAA42E88</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>835AEC891D80DD7F0046555C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>835AEC991D80DD800046555C</string>
-				<string>835F656A1D87A7B400B33AE0</string>
-				<string>835AEC961D80DD800046555C</string>
-				<string>835AEC941D80DD800046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>835AEC8A1D80DD7F0046555C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>835AECB31D80DD800046555C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>835AEC871D80DD7F0046555C</string>
-				<string>835AEC881D80DD7F0046555C</string>
-				<string>835AEC891D80DD7F0046555C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>RomanNumeralCalculator</string>
-			<key>productName</key>
-			<string>RomanNumeralCalculator</string>
-			<key>productReference</key>
-			<string>835AEC8B1D80DD800046555C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>835AEC8B1D80DD800046555C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>RomanNumeralCalculator.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>835AEC8C1D80DD800046555C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>835AEC8B1D80DD800046555C</string>
-				<string>835AEC9F1D80DD800046555C</string>
-				<string>835AECAA1D80DD800046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC8D1D80DD800046555C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>835F65691D87A7B400B33AE0</string>
-				<string>835AEC8E1D80DD800046555C</string>
-				<string>835AEC901D80DD800046555C</string>
-				<string>835AEC921D80DD800046555C</string>
-				<string>835AEC951D80DD800046555C</string>
-				<string>835AEC971D80DD800046555C</string>
-				<string>835AEC9A1D80DD800046555C</string>
-				<string>835AECBC1D80ED8F0046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RomanNumeralCalculator</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC8E1D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC8F1D80DD800046555C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>835AEC8E1D80DD800046555C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>835AEC901D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC911D80DD800046555C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>835AEC901D80DD800046555C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>835AEC921D80DD800046555C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>835AEC931D80DD800046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC931D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC941D80DD800046555C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>835AEC921D80DD800046555C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>835AEC951D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC961D80DD800046555C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>835AEC951D80DD800046555C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>835AEC971D80DD800046555C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>835AEC981D80DD800046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC981D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC991D80DD800046555C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>835AEC971D80DD800046555C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>835AEC9A1D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AEC9B1D80DD800046555C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>835AECA41D80DD800046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>835AEC9C1D80DD800046555C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>835AEC9D1D80DD800046555C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>835AEC9E1D80DD800046555C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>835AECB61D80DD800046555C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>835AEC9B1D80DD800046555C</string>
-				<string>835AEC9C1D80DD800046555C</string>
-				<string>835AEC9D1D80DD800046555C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>835AECA11D80DD800046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>RomanNumeralCalculatorTests</string>
-			<key>productName</key>
-			<string>RomanNumeralCalculatorTests</string>
-			<key>productReference</key>
-			<string>835AEC9F1D80DD800046555C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>835AEC9F1D80DD800046555C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>RomanNumeralCalculatorTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>835AECA01D80DD800046555C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>835AEC831D80DD7F0046555C</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>835AEC8A1D80DD7F0046555C</string>
-			<key>remoteInfo</key>
-			<string>RomanNumeralCalculator</string>
-		</dict>
-		<key>835AECA11D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>835AEC8A1D80DD7F0046555C</string>
-			<key>targetProxy</key>
-			<string>835AECA01D80DD800046555C</string>
-		</dict>
-		<key>835AECA21D80DD800046555C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>835AECA31D80DD800046555C</string>
-				<string>835AECA51D80DD800046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RomanNumeralCalculatorTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AECA31D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>RomanNumeralCalculatorTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AECA41D80DD800046555C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>835AECA31D80DD800046555C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>835AECA51D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AECA61D80DD800046555C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>835AECAF1D80DD800046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>835AECA71D80DD800046555C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>835AECA81D80DD800046555C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>835AECA91D80DD800046555C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>835AECB91D80DD800046555C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>835AECA61D80DD800046555C</string>
-				<string>835AECA71D80DD800046555C</string>
-				<string>835AECA81D80DD800046555C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>835AECAC1D80DD800046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>RomanNumeralCalculatorUITests</string>
-			<key>productName</key>
-			<string>RomanNumeralCalculatorUITests</string>
-			<key>productReference</key>
-			<string>835AECAA1D80DD800046555C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>835AECAA1D80DD800046555C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>RomanNumeralCalculatorUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>835AECAB1D80DD800046555C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>835AEC831D80DD7F0046555C</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>835AEC8A1D80DD7F0046555C</string>
-			<key>remoteInfo</key>
-			<string>RomanNumeralCalculator</string>
-		</dict>
-		<key>835AECAC1D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>835AEC8A1D80DD7F0046555C</string>
-			<key>targetProxy</key>
-			<string>835AECAB1D80DD800046555C</string>
-		</dict>
-		<key>835AECAD1D80DD800046555C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>835AECAE1D80DD800046555C</string>
-				<string>835AECB01D80DD800046555C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>RomanNumeralCalculatorUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AECAE1D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>RomanNumeralCalculatorUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AECAF1D80DD800046555C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>835AECAE1D80DD800046555C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>835AECB01D80DD800046555C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AECB11D80DD800046555C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>835AECB21D80DD800046555C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>835AECB31D80DD800046555C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>835AECB41D80DD800046555C</string>
-				<string>835AECB51D80DD800046555C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>835AECB41D80DD800046555C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(PROJECT_DIR)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>RomanNumeralCalculator/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.nsspain.RomanNumeralCalculator</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string></string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>Bridging-Header.h</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>835AECB51D80DD800046555C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(PROJECT_DIR)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>RomanNumeralCalculator/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.nsspain.RomanNumeralCalculator</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PROVISIONING_PROFILE</key>
-				<string></string>
-				<key>SWIFT_OBJC_BRIDGING_HEADER</key>
-				<string>Bridging-Header.h</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>835AECB61D80DD800046555C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>835AECB71D80DD800046555C</string>
-				<string>835AECB81D80DD800046555C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>835AECB71D80DD800046555C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>RomanNumeralCalculatorTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.nsspain.RomanNumeralCalculatorTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/RomanNumeralCalculator.app/RomanNumeralCalculator</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>835AECB81D80DD800046555C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>RomanNumeralCalculatorTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.nsspain.RomanNumeralCalculatorTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/RomanNumeralCalculator.app/RomanNumeralCalculator</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>835AECB91D80DD800046555C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>835AECBA1D80DD800046555C</string>
-				<string>835AECBB1D80DD800046555C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>835AECBA1D80DD800046555C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>RomanNumeralCalculatorUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.nsspain.RomanNumeralCalculatorUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>RomanNumeralCalculator</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>835AECBB1D80DD800046555C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>RomanNumeralCalculatorUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.nsspain.RomanNumeralCalculatorUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>RomanNumeralCalculator</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>835AECBC1D80ED8F0046555C</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>RomanNumeral.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835AECBD1D80ED8F0046555C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>835AECBC1D80ED8F0046555C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>835F65691D87A7B400B33AE0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder</string>
-			<key>path</key>
-			<string>Icons</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>835F656A1D87A7B400B33AE0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>835F65691D87A7B400B33AE0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84C013C0B11AB9F95B36881F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FA98DF8C06E63448001E4B42</string>
-				<string>2B04790C1F43C99942EF78AD</string>
-				<string>A7717DCF720ADA38CF58AE5F</string>
-				<string>1A197A6FFC421852069A123F</string>
-				<string>C0CC85E3DFBD26D5B41E1AAE</string>
-				<string>2074ABAFCD752C9366216FB5</string>
-				<string>EC448A2D5D7B5C1D22AE0C02</string>
-				<string>C58B207E394C1A859B2CEC0A</string>
-				<string>539362157D812D225FFC2704</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A7717DCF720ADA38CF58AE5F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreText.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreText.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>AA49946F3170D758EAA42E88</key>
-		<dict>
-			<key>fileRef</key>
-			<string>539362157D812D225FFC2704</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B89D37FCEE137C0A4A033DB6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2074ABAFCD752C9366216FB5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C0CC85E3DFBD26D5B41E1AAE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SystemConfiguration.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/SystemConfiguration.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>C58B207E394C1A859B2CEC0A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreMedia.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreMedia.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>EC448A2D5D7B5C1D22AE0C02</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>AVFoundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/AVFoundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>EF14943B7535A230677C225A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA98DF8C06E63448001E4B42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F7F17AD6D6A1500A63964B76</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B04790C1F43C99942EF78AD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FA98DF8C06E63448001E4B42</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>BuddyBuildSDK.framework</string>
-			<key>path</key>
-			<string>BuddyBuildSDK.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>835AEC831D80DD7F0046555C</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11E27AF998774094A890C3F0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7717DCF720ADA38CF58AE5F /* CoreText.framework */; };
+		1F989EE8F5967246536D82D3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CC85E3DFBD26D5B41E1AAE /* SystemConfiguration.framework */; };
+		233DFA7C9B68A528A281D1F0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58B207E394C1A859B2CEC0A /* CoreMedia.framework */; };
+		2B0E7E5FE55E749AD6453531 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A197A6FFC421852069A123F /* CoreTelephony.framework */; };
+		37E3766B6B9D062C114A74D7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC448A2D5D7B5C1D22AE0C02 /* AVFoundation.framework */; };
+		835AEC8F1D80DD800046555C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC8E1D80DD800046555C /* AppDelegate.swift */; };
+		835AEC911D80DD800046555C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AEC901D80DD800046555C /* ViewController.swift */; };
+		835AEC941D80DD800046555C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC921D80DD800046555C /* Main.storyboard */; };
+		835AEC961D80DD800046555C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC951D80DD800046555C /* Assets.xcassets */; };
+		835AEC991D80DD800046555C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AEC971D80DD800046555C /* LaunchScreen.storyboard */; };
+		835AECA41D80DD800046555C /* RomanNumeralCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECA31D80DD800046555C /* RomanNumeralCalculatorTests.swift */; };
+		835AECAF1D80DD800046555C /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECAE1D80DD800046555C /* RomanNumeralCalculatorUITests.swift */; };
+		835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
+		835F656A1D87A7B400B33AE0 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 835F65691D87A7B400B33AE0 /* Icons */; };
+		AA49946F3170D758EAA42E88 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539362157D812D225FFC2704 /* CoreVideo.framework */; };
+		B89D37FCEE137C0A4A033DB6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2074ABAFCD752C9366216FB5 /* QuartzCore.framework */; };
+		EF14943B7535A230677C225A /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA98DF8C06E63448001E4B42 /* BuddyBuildSDK.framework */; };
+		F7F17AD6D6A1500A63964B76 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B04790C1F43C99942EF78AD /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		835AECA01D80DD800046555C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835AEC831D80DD7F0046555C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835AEC8A1D80DD7F0046555C;
+			remoteInfo = RomanNumeralCalculator;
+		};
+		835AECAB1D80DD800046555C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 835AEC831D80DD7F0046555C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835AEC8A1D80DD7F0046555C;
+			remoteInfo = RomanNumeralCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A197A6FFC421852069A123F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2074ABAFCD752C9366216FB5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2B04790C1F43C99942EF78AD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		539362157D812D225FFC2704 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		811A920AE226D1F1AA280C32 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumeralCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		835AEC8E1D80DD800046555C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		835AEC901D80DD800046555C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		835AEC931D80DD800046555C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		835AEC951D80DD800046555C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		835AEC981D80DD800046555C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		835AEC9A1D80DD800046555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835AEC9F1D80DD800046555C /* RomanNumeralCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		835AECA31D80DD800046555C /* RomanNumeralCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorTests.swift; sourceTree = "<group>"; };
+		835AECA51D80DD800046555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835AECAA1D80DD800046555C /* RomanNumeralCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		835AECAE1D80DD800046555C /* RomanNumeralCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorUITests.swift; sourceTree = "<group>"; };
+		835AECB01D80DD800046555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835AECBC1D80ED8F0046555C /* RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
+		835F65691D87A7B400B33AE0 /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = SOURCE_ROOT; };
+		A7717DCF720ADA38CF58AE5F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C0CC85E3DFBD26D5B41E1AAE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C58B207E394C1A859B2CEC0A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EC448A2D5D7B5C1D22AE0C02 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FA98DF8C06E63448001E4B42 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		835AEC881D80DD7F0046555C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF14943B7535A230677C225A /* BuddyBuildSDK.framework in Frameworks */,
+				F7F17AD6D6A1500A63964B76 /* AssetsLibrary.framework in Frameworks */,
+				11E27AF998774094A890C3F0 /* CoreText.framework in Frameworks */,
+				2B0E7E5FE55E749AD6453531 /* CoreTelephony.framework in Frameworks */,
+				1F989EE8F5967246536D82D3 /* SystemConfiguration.framework in Frameworks */,
+				B89D37FCEE137C0A4A033DB6 /* QuartzCore.framework in Frameworks */,
+				37E3766B6B9D062C114A74D7 /* AVFoundation.framework in Frameworks */,
+				233DFA7C9B68A528A281D1F0 /* CoreMedia.framework in Frameworks */,
+				AA49946F3170D758EAA42E88 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835AEC9C1D80DD800046555C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835AECA71D80DD800046555C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		835AEC821D80DD7F0046555C = {
+			isa = PBXGroup;
+			children = (
+				835AEC8D1D80DD800046555C /* RomanNumeralCalculator */,
+				835AECA21D80DD800046555C /* RomanNumeralCalculatorTests */,
+				835AECAD1D80DD800046555C /* RomanNumeralCalculatorUITests */,
+				835AEC8C1D80DD800046555C /* Products */,
+				84C013C0B11AB9F95B36881F /* Frameworks */,
+				811A920AE226D1F1AA280C32 /* Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		835AEC8C1D80DD800046555C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */,
+				835AEC9F1D80DD800046555C /* RomanNumeralCalculatorTests.xctest */,
+				835AECAA1D80DD800046555C /* RomanNumeralCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835AEC8D1D80DD800046555C /* RomanNumeralCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				835F65691D87A7B400B33AE0 /* Icons */,
+				835AEC8E1D80DD800046555C /* AppDelegate.swift */,
+				835AEC901D80DD800046555C /* ViewController.swift */,
+				835AEC921D80DD800046555C /* Main.storyboard */,
+				835AEC951D80DD800046555C /* Assets.xcassets */,
+				835AEC971D80DD800046555C /* LaunchScreen.storyboard */,
+				835AEC9A1D80DD800046555C /* Info.plist */,
+				835AECBC1D80ED8F0046555C /* RomanNumeral.swift */,
+			);
+			path = RomanNumeralCalculator;
+			sourceTree = "<group>";
+		};
+		835AECA21D80DD800046555C /* RomanNumeralCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				835AECA31D80DD800046555C /* RomanNumeralCalculatorTests.swift */,
+				835AECA51D80DD800046555C /* Info.plist */,
+			);
+			path = RomanNumeralCalculatorTests;
+			sourceTree = "<group>";
+		};
+		835AECAD1D80DD800046555C /* RomanNumeralCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				835AECAE1D80DD800046555C /* RomanNumeralCalculatorUITests.swift */,
+				835AECB01D80DD800046555C /* Info.plist */,
+			);
+			path = RomanNumeralCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		84C013C0B11AB9F95B36881F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA98DF8C06E63448001E4B42 /* BuddyBuildSDK.framework */,
+				2B04790C1F43C99942EF78AD /* AssetsLibrary.framework */,
+				A7717DCF720ADA38CF58AE5F /* CoreText.framework */,
+				1A197A6FFC421852069A123F /* CoreTelephony.framework */,
+				C0CC85E3DFBD26D5B41E1AAE /* SystemConfiguration.framework */,
+				2074ABAFCD752C9366216FB5 /* QuartzCore.framework */,
+				EC448A2D5D7B5C1D22AE0C02 /* AVFoundation.framework */,
+				C58B207E394C1A859B2CEC0A /* CoreMedia.framework */,
+				539362157D812D225FFC2704 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835AECB31D80DD800046555C /* Build configuration list for PBXNativeTarget "RomanNumeralCalculator" */;
+			buildPhases = (
+				835AEC871D80DD7F0046555C /* Sources */,
+				835AEC881D80DD7F0046555C /* Frameworks */,
+				835AEC891D80DD7F0046555C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomanNumeralCalculator;
+			productName = RomanNumeralCalculator;
+			productReference = 835AEC8B1D80DD800046555C /* RomanNumeralCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		835AEC9E1D80DD800046555C /* RomanNumeralCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835AECB61D80DD800046555C /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */;
+			buildPhases = (
+				835AEC9B1D80DD800046555C /* Sources */,
+				835AEC9C1D80DD800046555C /* Frameworks */,
+				835AEC9D1D80DD800046555C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				835AECA11D80DD800046555C /* PBXTargetDependency */,
+			);
+			name = RomanNumeralCalculatorTests;
+			productName = RomanNumeralCalculatorTests;
+			productReference = 835AEC9F1D80DD800046555C /* RomanNumeralCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		835AECA91D80DD800046555C /* RomanNumeralCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835AECB91D80DD800046555C /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */;
+			buildPhases = (
+				835AECA61D80DD800046555C /* Sources */,
+				835AECA71D80DD800046555C /* Frameworks */,
+				835AECA81D80DD800046555C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				835AECAC1D80DD800046555C /* PBXTargetDependency */,
+			);
+			name = RomanNumeralCalculatorUITests;
+			productName = RomanNumeralCalculatorUITests;
+			productReference = 835AECAA1D80DD800046555C /* RomanNumeralCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		835AEC831D80DD7F0046555C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = buddybuild;
+				TargetAttributes = {
+					835AEC8A1D80DD7F0046555C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 85SFQN4R6L;
+					};
+					835AEC9E1D80DD800046555C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 835AEC8A1D80DD7F0046555C;
+					};
+					835AECA91D80DD800046555C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 835AEC8A1D80DD7F0046555C;
+					};
+				};
+			};
+			buildConfigurationList = 835AEC861D80DD7F0046555C /* Build configuration list for PBXProject "RomanNumeralCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 835AEC821D80DD7F0046555C;
+			productRefGroup = 835AEC8C1D80DD800046555C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */,
+				835AEC9E1D80DD800046555C /* RomanNumeralCalculatorTests */,
+				835AECA91D80DD800046555C /* RomanNumeralCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		835AEC891D80DD7F0046555C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835AEC991D80DD800046555C /* LaunchScreen.storyboard in Resources */,
+				835F656A1D87A7B400B33AE0 /* Icons in Resources */,
+				835AEC961D80DD800046555C /* Assets.xcassets in Resources */,
+				835AEC941D80DD800046555C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835AEC9D1D80DD800046555C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835AECA81D80DD800046555C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		835AEC871D80DD7F0046555C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835AEC911D80DD800046555C /* ViewController.swift in Sources */,
+				835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */,
+				835AEC8F1D80DD800046555C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835AEC9B1D80DD800046555C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835AECA41D80DD800046555C /* RomanNumeralCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835AECA61D80DD800046555C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835AECAF1D80DD800046555C /* RomanNumeralCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		835AECA11D80DD800046555C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */;
+			targetProxy = 835AECA01D80DD800046555C /* PBXContainerItemProxy */;
+		};
+		835AECAC1D80DD800046555C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 835AEC8A1D80DD7F0046555C /* RomanNumeralCalculator */;
+			targetProxy = 835AECAB1D80DD800046555C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		835AEC921D80DD800046555C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835AEC931D80DD800046555C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		835AEC971D80DD800046555C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835AEC981D80DD800046555C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		835AECB11D80DD800046555C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		835AECB21D80DD800046555C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		835AECB41D80DD800046555C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RomanNumeralCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		835AECB51D80DD800046555C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RomanNumeralCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+			};
+			name = Release;
+		};
+		835AECB71D80DD800046555C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RomanNumeralCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumeralCalculator.app/RomanNumeralCalculator";
+			};
+			name = Debug;
+		};
+		835AECB81D80DD800046555C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RomanNumeralCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumeralCalculator.app/RomanNumeralCalculator";
+			};
+			name = Release;
+		};
+		835AECBA1D80DD800046555C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RomanNumeralCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RomanNumeralCalculator;
+			};
+			name = Debug;
+		};
+		835AECBB1D80DD800046555C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RomanNumeralCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RomanNumeralCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		835AEC861D80DD7F0046555C /* Build configuration list for PBXProject "RomanNumeralCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835AECB11D80DD800046555C /* Debug */,
+				835AECB21D80DD800046555C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835AECB31D80DD800046555C /* Build configuration list for PBXNativeTarget "RomanNumeralCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835AECB41D80DD800046555C /* Debug */,
+				835AECB51D80DD800046555C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835AECB61D80DD800046555C /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835AECB71D80DD800046555C /* Debug */,
+				835AECB81D80DD800046555C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835AECB91D80DD800046555C /* Build configuration list for PBXNativeTarget "RomanNumeralCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835AECBA1D80DD800046555C /* Debug */,
+				835AECBB1D80DD800046555C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 835AEC831D80DD7F0046555C /* Project object */;
+}
