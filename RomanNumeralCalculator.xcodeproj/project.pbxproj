@@ -15,6 +15,7 @@
 		835AECA41D80DD800046555C /* RomanNumeralCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECA31D80DD800046555C /* RomanNumeralCalculatorTests.swift */; };
 		835AECAF1D80DD800046555C /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECAE1D80DD800046555C /* RomanNumeralCalculatorUITests.swift */; };
 		835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
+		835F656A1D87A7B400B33AE0 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 835F65691D87A7B400B33AE0 /* Icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		835AECAE1D80DD800046555C /* RomanNumeralCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralCalculatorUITests.swift; sourceTree = "<group>"; };
 		835AECB01D80DD800046555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835AECBC1D80ED8F0046555C /* RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
+		835F65691D87A7B400B33AE0 /* Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icons; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		835AEC8D1D80DD800046555C /* RomanNumeralCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				835F65691D87A7B400B33AE0 /* Icons */,
 				835AEC8E1D80DD800046555C /* AppDelegate.swift */,
 				835AEC901D80DD800046555C /* ViewController.swift */,
 				835AEC921D80DD800046555C /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				835AEC991D80DD800046555C /* LaunchScreen.storyboard in Resources */,
+				835F656A1D87A7B400B33AE0 /* Icons in Resources */,
 				835AEC961D80DD800046555C /* Assets.xcassets in Resources */,
 				835AEC941D80DD800046555C /* Main.storyboard in Resources */,
 			);
