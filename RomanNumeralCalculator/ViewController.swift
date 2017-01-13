@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         resultLabel.text = toRoman(total)
         
         // Forcing a crash
-        if resultLabel.text == "XXXXX" {
+        if resultLabel.text == "MCLX" {
             BuddyBuildSDK.crash();
         }
     }
