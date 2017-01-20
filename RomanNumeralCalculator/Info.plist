@@ -6,6 +6,12 @@
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>BUDDYBUILD_APP_ID</key>
+	<string>BUDDYBUILD_APP_ID</string>
+	<key>BUDDYBUILD_BUILD_ID</key>
+	<string>hello</string>
+	<key>BUDDYBUILD_BUILD_NUMBER</key>
+	<string>1</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
