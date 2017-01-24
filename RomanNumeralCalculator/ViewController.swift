@@ -47,43 +47,53 @@ class ViewController: UIViewController {
     @IBOutlet weak var buttonClear: UIButton!
 
     @IBAction func actionI(_ sender: AnyObject) {
+        print("handleButton 1")
         handleButton(1)
     }
 
     @IBAction func actionV(_ sender: AnyObject) {
+        print("handleButton 5")
         handleButton(5)
     }
 
     @IBAction func actionX(_ sender: AnyObject) {
+        print("handleButton 1")
         handleButton(10)
     }
 
     @IBAction func actionL(_ sender: AnyObject) {
+        print("handleButton 50")
         handleButton(50)
     }
 
 
     @IBAction func actionC(_ sender: AnyObject) {
+        print("handleButton 100")
         handleButton(100)
     }
 
     @IBAction func actionD(_ sender: AnyObject) {
+        print("handleButton 500")
         handleButton(500)
     }
 
     @IBAction func actionM(_ sender: AnyObject) {
+        print("handleButton 1000")
         handleButton(1000)
     }
 
     @IBAction func actionPlus(_ sender: AnyObject) {
+        print("+")
         signOfNextOperation = 1
     }
 
     @IBAction func actionMinus(_ sender: AnyObject) {
+        print("-")
         signOfNextOperation = -1
     }
 
     @IBAction func actionClear(_ sender: AnyObject) {
+        print("clear")
         total = 0
         update()
     }
