@@ -18,14 +18,23 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        XCUIApplication().launch()
+        
+        
+        // This needs to be added to record a view of each UI test
+        let app = XCUIApplication()
+        app.launchArguments.append("BUDDYBUILD_UI_TESTS")
+        app.launch()
+        
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
+        // This needs to be added to record a view of each UI test
         XCUIDevice().press(.home)
         sleep(10)
+        
         super.tearDown()
     }
     
@@ -34,8 +43,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         XCUIDevice.shared().orientation = .portrait
         
         let app = XCUIApplication()
-        XCUIDevice.shared().orientation = .portrait
-        XCUIApplication().buttons["Clear"].tap()
+        app.buttons["Clear"].tap()
         
         let iButton = app.buttons["I"]
         iButton.tap()
@@ -53,8 +61,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         XCUIDevice.shared().orientation = .portrait
         
         let app = XCUIApplication()
-        XCUIDevice.shared().orientation = .portrait
-        XCUIApplication().buttons["Clear"].tap()
+        app.buttons["Clear"].tap()
         
         let iButton = app.buttons["I"]
         iButton.tap()
