@@ -13,14 +13,11 @@ class RomanNumeralCalculatorUITests: XCTestCase {
     override func setUp() {
         super.setUp()
         
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // It is important to set continueAfterFailure to true. Otherwise, the video will be properly generated, as the app get SIGKILL'd if a test fails
+        continueAfterFailure = true
         
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
-        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        
-        
-        // This needs to be added to record a view of each UI test
+        // This needs to be added to record a view of each UI test. 
+        // IMPORTANT: It is important to use a single instance of XCUIApplication.
         let app = XCUIApplication()
         app.launchArguments.append("BUDDYBUILD_UI_TESTS")
         app.launch()
@@ -33,7 +30,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         
         // This needs to be added to record a view of each UI test
         XCUIDevice().press(.home)
-        sleep(10)
+        sleep(10) // Leave this to 10 seconds for now. To be sure it works on VMs
         
         super.tearDown()
     }
