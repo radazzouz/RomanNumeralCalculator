@@ -19,7 +19,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         // This needs to be added to record a view of each UI test. 
         // IMPORTANT: It is important to use a single instance of XCUIApplication.
         let app = XCUIApplication()
-        app.launchArguments.append("BUDDYBUILD_UI_TESTS")
+        app.launchArguments.append("BUDDYBUILD_UI_TESTS_VIDEO_RECORDING")
         app.launch()
         
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
