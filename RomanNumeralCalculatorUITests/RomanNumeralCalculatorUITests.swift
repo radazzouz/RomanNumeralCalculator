@@ -30,7 +30,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         
         // This needs to be added to record a view of each UI test
         XCUIDevice().press(.home)
-        sleep(10) // Leave this to 10 seconds for now. To be sure it works on VMs
+        sleep(1) // Leave this to 1 second for now. To be sure it works on VMs
         
         super.tearDown()
     }
