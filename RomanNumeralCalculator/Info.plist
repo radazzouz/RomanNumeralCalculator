@@ -2,8 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BUDDYBUILD_BUILD_ID</key>
+	<string>BUILD_ID</string>
+	<key>BUDDYBUILD_ENDPOINT</key>
+	<string>some.url</string>
+	<key>BUDDYBUILD_SETTING_ENABLE_CRASH_REPORTING</key>
+	<integer>1</integer>
+	<key>BUDDYBUILD_UI_TESTS_VIDEO_RECORDING</key>
+	<string>BUDDYBUILD_UI_TESTS_VIDEO_RECORDING</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Numeral Calc</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -12,8 +22,6 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
-	<key>CFBundleDisplayName</key>
-	<string>Numeral Calc</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -22,12 +30,6 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>BUDDYBUILD_SETTING_ENABLE_CRASH_REPORTING</key>
-	<integer>1</integer>
-	<key>BUDDYBUILD_BUILD_ID</key>
-	<string>BUILD_ID</string>
-	<key>BUDDYBUILD_ENDPOINT</key>
-	<string>some.url</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

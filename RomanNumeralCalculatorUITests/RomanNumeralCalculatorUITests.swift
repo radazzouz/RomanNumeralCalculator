@@ -14,24 +14,17 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         super.setUp()
         
         // It is important to set continueAfterFailure to true. Otherwise, the video will be properly generated, as the app get SIGKILL'd if a test fails
-        continueAfterFailure = true
-        
-        // This needs to be added to record a view of each UI test. 
-        // IMPORTANT: It is important to use a single instance of XCUIApplication.
-        let app = XCUIApplication()
-        app.launchArguments.append("BUDDYBUILD_UI_TESTS_VIDEO_RECORDING")
-        app.launch()
-        
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        continueAfterFailure = false
+        XCUIApplication().launch()
+        BuddyBuildSDK.startUITestsVideoRecording()
+
     }
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
-        
-        // This needs to be added to record a view of each UI test
-        XCUIDevice().press(.home)
-        sleep(1) // Leave this to 1 second for now. To be sure it works on VMs
-        
+
+        BuddyBuildSDK.stopUITestsVideoRecording()
+
         super.tearDown()
     }
     

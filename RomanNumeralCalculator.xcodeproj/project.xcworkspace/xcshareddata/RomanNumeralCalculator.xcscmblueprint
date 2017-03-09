@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "420C98D767DFA1FC3D785AE0A4B4C5CF2BF91DBF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "420C98D767DFA1FC3D785AE0A4B4C5CF2BF91DBF" : 9223372036854775807,
+    "42619467AFF6AA18B133FF3F51606403E514B141" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D95821CF-840B-46C8-A01F-60C7821A7236",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "420C98D767DFA1FC3D785AE0A4B4C5CF2BF91DBF" : "RomanNumeralCalculator\/",
+    "42619467AFF6AA18B133FF3F51606403E514B141" : "BuddyBuildSDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RomanNumeralCalculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RomanNumeralCalculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/radazzouz\/RomanNumeralCalculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "420C98D767DFA1FC3D785AE0A4B4C5CF2BF91DBF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:BuddyBuild\/BuddyBuildSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42619467AFF6AA18B133FF3F51606403E514B141"
+    }
+  ]
+}

@@ -21,6 +21,16 @@
 		835AECAF1D80DD800046555C /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECAE1D80DD800046555C /* RomanNumeralCalculatorUITests.swift */; };
 		835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
 		835F656A1D87A7B400B33AE0 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 835F65691D87A7B400B33AE0 /* Icons */; };
+		842907A41E6716BA004505D2 /* BuddyBuildSDK in Resources */ = {isa = PBXBuildFile; fileRef = 842907A31E6716BA004505D2 /* BuddyBuildSDK */; };
+		84E1CD321E71B04800CDAACE /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA98DF8C06E63448001E4B42 /* BuddyBuildSDK.framework */; };
+		84E1CD331E71B12E00CDAACE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B04790C1F43C99942EF78AD /* AssetsLibrary.framework */; };
+		84E1CD341E71B13500CDAACE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7717DCF720ADA38CF58AE5F /* CoreText.framework */; };
+		84E1CD351E71B13500CDAACE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A197A6FFC421852069A123F /* CoreTelephony.framework */; };
+		84E1CD361E71B13500CDAACE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CC85E3DFBD26D5B41E1AAE /* SystemConfiguration.framework */; };
+		84E1CD371E71B13500CDAACE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2074ABAFCD752C9366216FB5 /* QuartzCore.framework */; };
+		84E1CD381E71B13500CDAACE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC448A2D5D7B5C1D22AE0C02 /* AVFoundation.framework */; };
+		84E1CD391E71B13500CDAACE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58B207E394C1A859B2CEC0A /* CoreMedia.framework */; };
+		84E1CD3A1E71B13500CDAACE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539362157D812D225FFC2704 /* CoreVideo.framework */; };
 		AA49946F3170D758EAA42E88 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539362157D812D225FFC2704 /* CoreVideo.framework */; };
 		B89D37FCEE137C0A4A033DB6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2074ABAFCD752C9366216FB5 /* QuartzCore.framework */; };
 		EF14943B7535A230677C225A /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA98DF8C06E63448001E4B42 /* BuddyBuildSDK.framework */; };
@@ -100,6 +110,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E1CD391E71B13500CDAACE /* CoreMedia.framework in Frameworks */,
+				84E1CD351E71B13500CDAACE /* CoreTelephony.framework in Frameworks */,
+				84E1CD361E71B13500CDAACE /* SystemConfiguration.framework in Frameworks */,
+				84E1CD371E71B13500CDAACE /* QuartzCore.framework in Frameworks */,
+				84E1CD321E71B04800CDAACE /* BuddyBuildSDK.framework in Frameworks */,
+				84E1CD3A1E71B13500CDAACE /* CoreVideo.framework in Frameworks */,
+				84E1CD331E71B12E00CDAACE /* AssetsLibrary.framework in Frameworks */,
+				84E1CD381E71B13500CDAACE /* AVFoundation.framework in Frameworks */,
+				84E1CD341E71B13500CDAACE /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +494,7 @@
 				);
 				INFOPLIST_FILE = RomanNumeralCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -496,6 +516,7 @@
 				);
 				INFOPLIST_FILE = RomanNumeralCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -536,10 +557,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = L4FET847JL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RomanNumeralCalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RomanNumeralCalculator;
 			};
@@ -549,10 +575,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = L4FET847JL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RomanNumeralCalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nsspain.RomanNumeralCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RomanNumeralCalculator;
 			};
