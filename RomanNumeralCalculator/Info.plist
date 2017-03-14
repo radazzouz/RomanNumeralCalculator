@@ -8,8 +8,6 @@
 	<string>some.url</string>
 	<key>BUDDYBUILD_SETTING_ENABLE_CRASH_REPORTING</key>
 	<integer>1</integer>
-	<key>BUDDYBUILD_UI_TESTS_VIDEO_RECORDING</key>
-	<string>BUDDYBUILD_UI_TESTS_VIDEO_RECORDING</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -53,5 +51,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>BUDDYBUILD_SETTING_ENABLE_UI_TESTS_VIDEO_RECORDING</key>
+	<integer>1</integer>
 </dict>
 </plist>
