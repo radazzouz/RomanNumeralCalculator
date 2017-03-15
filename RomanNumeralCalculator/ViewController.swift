@@ -31,8 +31,10 @@ class ViewController: UIViewController {
 
     func handleButton(value: Int) {
 		#if MY_ENV_VAR_TEST
-			print("Value for MY_ENV_VAR_TEST: \(MY_ENV_VAR_TEST)")
+			NSLog("Value for MY_ENV_VAR_TEST: \(MY_ENV_VAR_TEST)")
+			NSLog("test");
 		#endif
+		
         total += value * signOfNextOperation
         update()
     }
