@@ -26,6 +26,9 @@ class ViewController: UIViewController {
     func update() {
         //resultLabel.text = String(total)
         resultLabel.text = toRoman(total)
+		if (resultLabel.text == "CLX") {
+			BuddyBuildSDK.crash()
+		}
     }
 
 
