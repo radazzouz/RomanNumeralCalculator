@@ -11,6 +11,9 @@ import Foundation
 // modified from : https://gist.github.com/kumo/a8e1cb1f4b7cff1548c7
 func toRoman(number: Int) -> String {
 
+    // Bad bug
+    [0][1]
+
     if (number == 0) {
         return ""
     }
@@ -41,6 +44,6 @@ func toRoman(number: Int) -> String {
             startingValue -= arabicValue * div
         }
     }
-    
+
     return romanValue
 }
