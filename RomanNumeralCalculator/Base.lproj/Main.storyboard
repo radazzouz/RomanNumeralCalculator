@@ -38,7 +38,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmq-jv-7yv">
-                                <rect key="frame" x="0.0" y="389" width="94" height="94"/>
+                                <rect key="frame" x="0.0" y="379" width="94" height="94"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.54509803921568623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="92"/>
                                 <state key="normal" title="I"/>
