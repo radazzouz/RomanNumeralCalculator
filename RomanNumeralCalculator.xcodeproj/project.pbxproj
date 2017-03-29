@@ -21,7 +21,6 @@
 		835AECAF1D80DD800046555C /* RomanNumeralCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECAE1D80DD800046555C /* RomanNumeralCalculatorUITests.swift */; };
 		835AECBD1D80ED8F0046555C /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AECBC1D80ED8F0046555C /* RomanNumeral.swift */; };
 		835F656A1D87A7B400B33AE0 /* Icons in Resources */ = {isa = PBXBuildFile; fileRef = 835F65691D87A7B400B33AE0 /* Icons */; };
-		842907A41E6716BA004505D2 /* BuddyBuildSDK in Resources */ = {isa = PBXBuildFile; fileRef = 842907A31E6716BA004505D2 /* BuddyBuildSDK */; };
 		84E1CD321E71B04800CDAACE /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA98DF8C06E63448001E4B42 /* BuddyBuildSDK.framework */; };
 		84E1CD331E71B12E00CDAACE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B04790C1F43C99942EF78AD /* AssetsLibrary.framework */; };
 		84E1CD341E71B13500CDAACE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7717DCF720ADA38CF58AE5F /* CoreText.framework */; };
