@@ -4,8 +4,6 @@
 <dict>
 	<key>BUDDYBUILD_BUILD_ID</key>
 	<string>BUILD_ID</string>
-	<key>BUDDYBUILD_SETTING_ENABLE_UI_TESTS_VIDEO_RECORDING</key>
-	<integer>1</integer>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
