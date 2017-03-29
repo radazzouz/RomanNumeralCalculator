@@ -58,10 +58,10 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         app.buttons["+"].tap()
         iButton.tap()
         
-//        let label = app.staticTexts["calculated_value"]
-//        let exists = NSPredicate(format: "label == 'III'")
-//        
-//        expectation(for: exists, evaluatedWith: label, handler: nil)
-//        waitForExpectations(timeout: 30, handler: nil)
+        let label = app.staticTexts["calculated_value"]
+        let exists = NSPredicate(format: "label == 'III'")
+        
+        expectation(for: exists, evaluatedWith: label, handler: nil)
+        waitForExpectations(timeout: 30, handler: nil)
     }
 }
