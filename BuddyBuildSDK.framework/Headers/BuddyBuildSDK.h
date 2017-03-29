@@ -140,11 +140,27 @@ typedef void (^BBCallback)();
  */
 + (void)log:(NSString *)message;
 
-+ (void)startUITestsVideoRecording;
 
-+ (void)stopUITestsVideoRecording;
+/*
+ * Starts recording video when running a UI test case.
+ * Should be called after each "[[[XCUIApplication alloc] init] launch];" in your UI tests codebase.
+ * Only run in buddybuild while the UI tests run. It will not run locally, on real iOS devices or on TestFlight and App Store installs.
+ */
++ (void)startUITests;
 
-+ (void)uiTestRecordingDidReceiveRemoteNotification:(NSDictionary *)userInfo;
+/*
+ * Stops recording video at the end of a UI test case.
+ * Should be called before each "[super tearDown];" in your UI tests codebase.
+ * Only run in buddybuild while the UI tests run. It will not run locally, on real iOS devices or on TestFlight and App Store installs.
+
+ */
++ (void)stopUITests;
+
+/*
+ * Should be called in your app delegate in -[UIApplication application:didReceiveRemoteNotification:fetchCompletionHandler].
+ * Only run in buddybuild while the UI tests run. It will not run locally, on real iOS devices or on TestFlight and App Store installs.
+ */
++ (void)uiTestsDidReceiveRemoteNotification:(NSDictionary *)userInfo;
 
 @end
 
