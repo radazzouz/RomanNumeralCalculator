@@ -146,7 +146,7 @@ typedef void (^BBCallback)();
  * Should be called after each "[[[XCUIApplication alloc] init] launch];" in your UI tests codebase.
  * Only run in buddybuild while the UI tests run. It will not run locally, on real iOS devices or on TestFlight and App Store installs.
  */
-+ (void)startUITestsVideoRecording;
++ (void)startUITests;
 
 /*
  * Stops recording video at the end of a UI test case.
@@ -154,13 +154,13 @@ typedef void (^BBCallback)();
  * Only run in buddybuild while the UI tests run. It will not run locally, on real iOS devices or on TestFlight and App Store installs.
 
  */
-+ (void)stopUITestsVideoRecording;
++ (void)stopUITests;
 
 /*
  * Should be called in your app delegate in -[UIApplication application:didReceiveRemoteNotification:fetchCompletionHandler].
  * Only run in buddybuild while the UI tests run. It will not run locally, on real iOS devices or on TestFlight and App Store installs.
  */
-+ (void)uiTestRecordingDidReceiveRemoteNotification:(NSDictionary *)userInfo;
++ (void)uiTestsDidReceiveRemoteNotification:(NSDictionary *)userInfo;
 
 @end
 
