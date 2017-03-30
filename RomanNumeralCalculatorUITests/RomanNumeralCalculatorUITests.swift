@@ -15,14 +15,12 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         
         // It is important to set continueAfterFailure to true. Otherwise, the video will be properly generated, as the app get SIGKILL'd if a test fails
         continueAfterFailure = false
-        XCUIApplication().launch()
         BuddyBuildSDK.startUITests()
     }
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
 
-        BuddyBuildSDK.stopUITests()
         super.tearDown()
     }
     
