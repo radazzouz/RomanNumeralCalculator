@@ -140,7 +140,6 @@ typedef void (^BBCallback)();
  */
 + (void)log:(NSString *)message;
 
-
 /*
  * Starts recording video when running a UI test case.
  * Should be called after each "[[[XCUIApplication alloc] init] launch];" in your UI tests codebase.
