@@ -7,7 +7,7 @@
 	<key>BUDDYBUILD_ENDPOINT</key>
 	<string>some.url</string>
 	<key>BUDDYBUILD_INSTANT_REPLAY_QUALITY</key>
-	<string>LOW</string>
+	<string>HIGH</string>
 	<key>BUDDYBUILD_SETTING_ENABLE_CRASH_REPORTING</key>
 	<integer>1</integer>
 	<key>BUDDYBUILD_SETTING_ENABLE_UI_TESTS_VIDEO_RECORDING</key>
