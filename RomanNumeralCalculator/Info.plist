@@ -53,5 +53,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>BUDDYBUILD_INSTANT_REPLAY_BITRATE</key>
+	<integer>400000</integer>
+	<key>BUDDYBUILD_INSTANT_REPLAY_FRAMES_PER_SECOND</key>
+	<integer>30</integer>
+	<key>BUDDYBUILD_INSTANT_REPLAY_INTERPOLATION</key>
+	<integer>3</integer>
 </dict>
 </plist>
