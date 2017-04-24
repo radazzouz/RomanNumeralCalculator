@@ -9,7 +9,7 @@
 	<key>BUDDYBUILD_SETTING_ENABLE_CRASH_REPORTING</key>
 	<integer>1</integer>
 	<key>BUDDYBUILD_SETTING_ENABLE_UI_TESTS_VIDEO_RECORDING</key>
-	<true/>
+	<integer>1</integer>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -55,8 +55,8 @@
 	</array>
 	<key>BUDDYBUILD_INSTANT_REPLAY_BITRATE</key>
 	<integer>400000</integer>
-	<key>BUDDYBUILD_INSTANT_REPLAY_FRAME_INTERVAL</key>
-	<integer>1</integer>
+	<key>BUDDYBUILD_INSTANT_REPLAY_FRAMES_PER_SECOND</key>
+	<integer>30</integer>
 	<key>BUDDYBUILD_INSTANT_REPLAY_INTERPOLATION</key>
 	<integer>3</integer>
 </dict>
