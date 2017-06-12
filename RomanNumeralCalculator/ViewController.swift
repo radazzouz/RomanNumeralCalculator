@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        BuddyBuildSDK.setUserDisplayNameCallback { () -> String? in
+            return "testing SDK"
+        }
     }
 
     override func didReceiveMemoryWarning() {
